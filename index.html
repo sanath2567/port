@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="port.css">
+
+    
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...your-integrity-hash...=" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="hero" id="home">
+        <div class="nav">
+            <div class="logo">
+           <a href="#"><img src="2.jpg" alt="loading---" id="theme-switcher"></a> 
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#home" class="home">Home</a></li>
+                <li><a href="#about" class="about">About</a></li>
+                  <li><a href="#skills" class="portfolio">Skills</a></li>
+            </ul>
+            <button class="cta" id="#contact"><a href="#contact" class="cta">contact</a></button>
+          </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h1>I'm Sanath Kumar</h1>
+                <br>
+                <p class="p">This website can be consist of real and genuie 
+                    information about the sanath kumar. Hi!<br>
+                    every one I am currently pursuing my  
+                        B.Tech second year in the stream of 
+                    computer <br> science and enginnering. This portfolio can be consist of complete information about  <br>my skills which I have learn till now. During my B.Tech course I was done some project<br>
+                related to web development built my web development.I was provided my number in the 
+            <br> the contact section I any Queries please contact me.</p>
+                <a href="thumbnail (1).pdf" download>Download Resume</a>
+            </div>
+            <div class="right">
+                <p></p>
+                <div class="image">
+                    <img src="sanath (2).jpg" alt="loading---" style="border-radius: 80%;">
+                   </div>
+            </div>
+        </div>
+    </div>
+  <!-- this is refers the about page -->
+
+    <div class="about-container" id="about">
+        <div class="main1">
+              <!--  <div class="images">
+                <img src="sanath-transformed .jpg" alt="loading-------">
+               </div> --> 
+               <span class="num">My projects</span>
+               <div class="left">
+                
+                <h1 class="h1">I'm Nothing </h1>
+                <br>
+                <h2></h2>
+                <p class="g">This web page consist of my projects which I have developed till now. </p>
+                <h3>QR Code Generator</h3>
+                <p class="m"> This is the my first website which I have built based on the qr code generator. <br>click on the qrcode word in the below you are directly entered into the website</p>
+                <br>
+                <a href="https://qrscannersa.netlify.app/" id="p">Qr code</a>
+                <h3>Image to Qr code</h3>
+                <p class="m"> This is the my second website which I have built based on the  converted image in the form of <br> qrcode.click on the Image word in the below you are directly entered into the website</p>
+                <br>
+                <a href="https://scanner18.netlify.app/" id="p">Image</a>
+            </div>
+            <div class="right">
+                <p></p>
+                
+            </div>
+
+        </div>
+    </div>
+   <!--  <div class="main3">
+     <h4>HTML</h4>
+    <progress id="file" max="100" value="70" color="red">
+        70%
+    </progress>   
+    </div> -->
+
+
+    <!-- this i srefers to the skills -->
+<div id="skills" >
+    <div class="main3">
+        <h2>My skills</h2>
+        <div class="left">
+        <h4>PYTHON</h4>
+        <progress value="40" max="100" class="id">
+            40%
+        </progress>
+        <h4>JAVA</h4>
+        <progress value="60" max="100" class="id">
+            60%
+        </progress>
+        <h4>C programming</h4>
+        <progress value="30" max="100" class="id">
+            30%
+        </progress>
+        <h4>Node js</h4>
+        <progress value="10" max="100" class="id">
+            10%
+        </progress>
+        
+        </div>
+        <div class="right">
+            <h4>HTML</h4>
+            <progress value="80" max="100" class="id1">
+                70%
+            </progress>
+            <h4>CSS</h4>
+            <progress value="50" max="100" class="id1">
+                50%
+            </progress>
+            <h4>BOOTSTRAP</h4>
+            <progress value="70" max="100" class="id1">
+                70%
+            </progress>
+            <h4>Javascript</h4>
+            <progress value="20" max="100" class="id1">
+                20%
+            </progress>
+        </div>
+    </div>
+</div>
+<!-- contact section  -->
+<footer>
+    <div class="contact-container" id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <h3><i class="fas fa-user"></i> Sriram Sanath Kumar</h3>
+        <p><i class="fas fa-map-marker-alt"></i>L.R. Palli,Atmakur,Nellore(D.T)</p>
+        <p><i class="fas fa-phone"></i> 9848239193</p>
+        <p><i class="fas fa-envelope"></i> Email: kirack123@gmail.com</p>
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const body = document.body;
+    const themeSwitcher = document.getElementById("theme-switcher");
+    let isDarkMode = false;
+
+    themeSwitcher.addEventListener("click", toggleTheme);
+
+    function toggleTheme() {
+      isDarkMode = !isDarkMode;
+      body.classList.toggle("dark-mode");
+      updateThemeSwitcher();
+    }
+
+    function updateThemeSwitcher() {
+      const iconPath = isDarkMode ? "2.jpg" : "2.jpg";
+      themeSwitcher.setAttribute("src", iconPath);
+      themeSwitcher.setAttribute("alt", isDarkMode ? "Dark Mode" : "Light Mode");
+    }
+  </script>
+</body>
+</html>

@@ -12,7 +12,7 @@
 
 .hero{
     width: 100%;
-    height: 70vh;
+    height: 84vh;
     background:#e0e4ef;
     overflow: hidden;
 
@@ -21,8 +21,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 70px;
+    padding: 30px 80px;
     background-color: #fff;
+    
     
 }
 img{
@@ -30,17 +31,19 @@ img{
     max-height: 100%;
 }
 .logo img{
- width: 900vw;
- height: 55px;
+ width: 1000vw;
+ height: 70px;
  font-size: larger; 
 transform: translateY(-30px);
 margin-right: 120px;
 box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 }
 .logo a{
-    width: 100px;
+    width: 150px;
+    height: 190px;
     display: block;
     padding: 20px 0px;
+    margin-top: -20px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #f2f2f2;
@@ -52,14 +55,13 @@ box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
     height: 30px;
     transform: translatex(-10px); 
 }
-.links{
-    order:1;
-}
+
 .links{
     display: flex;
     align-items: center;
     justify-content: center;
     order:1;
+    
 }
 .nav ul{
     display: flex;
@@ -87,7 +89,7 @@ box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 
 .nav button{
  
-     padding: 10px 10px;
+     padding: 14px 14px;
      cursor:pointer;
      background: #ef584d;
      outline: none;
@@ -110,31 +112,37 @@ box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 }
 
 .main .left{
-    margin-right: 70px;
+    margin-right: 280px;
     margin-bottom: 500px;
     float: left;
+    
 }
-.p{
-    font-size: 13px;
+.main .left .p{
+    font-size: 19px;
     margin-bottom: 30px;
      color: #949191; 
-     line-height: 18px;
-     text-indent: 5px;
+     line-height: 21px;
+     text-indent: 14px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+.main .left h1{
+    font-size: 60px;
 }
 img{
     max-width: 100%;
     max-height: 100%;
 }
  .image{
-    width:250px;
-    height: 680px;
-    margin-top: -90px;
-    margin-left: 80px;   
+    width:350px;
+    height: 560px;
+    margin-top: -260px;
+    margin-left: 40px;   
 }
 .main .left a{
-    padding: 8px 8px;
+    padding: 14px 14px;
     background: #ef584d;
+    font-size: 20px;
     outline: none;
     border: none;
     color: #fff;
@@ -153,7 +161,7 @@ img{
     }
 /* this about projects */
 .about-container{
-    height: 100vh;
+    height: 90vh;
 }
 .main1{
     display: flex;
@@ -164,21 +172,22 @@ img{
 
 .main1{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     margin-left: 130px;
 }
 .main1 .left{
    transform: translateX(-200px);
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 20px;
 }
 .h1{
     color: rgb(209, 38, 203);
     margin-top: 120px;
     margin-left: 170px;
+    font-size: 60px;
 }
-.p{
-    font-size: 12px;
+.main1 .p{
+    font-size: 19px;
     margin-bottom: 30px;
     color: #949191;
 }
@@ -186,9 +195,10 @@ img{
     margin-top: 45px;
     text-align: center;
     color: #ef584d;
+    font-size: 40px;
 }
 .g{
-    font-size: 16px;
+    font-size: 19px;
     margin-top: -30px;
     color: #949191;
     font-weight: bolder;  
@@ -197,15 +207,15 @@ img{
     margin-top: -30px;
     color: #949191;
     transform: translateY(30px);
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
 }
 #p{
-    font-size: 18px;
+    font-size: 29px;
    color:orchid;
    margin-left:260px;  
    font-family: Arial, Helvetica, sans-serif;
-   
+   margin-right: 80px;
 }
 #p:hover{
     text-decoration: underline;
@@ -213,9 +223,9 @@ img{
     
 }
 .num{
-  font-size: 30px;
+  font-size: 70px;
   margin-bottom:300px;
-  transform: translateX(200px);
+  transform: translateX(250px);
   text-align: center;
   color:#074b9e;
   font-size: 30px;
@@ -227,7 +237,7 @@ img{
  .main3{
  background-color:#e0e4ef;
  width: 100%;
- height: 90vh;
+ height: 80vh;
 } 
 
  .main3 .left{
@@ -241,10 +251,10 @@ img{
   margin-left: 70px;
   text-transform: lowercase;
   color: #ef584d;
-  font-size: 20px;
+  font-size: 30px;
 }
 .main3 h2{
-    font-size: 25px;
+    font-size: 45px;
   margin-bottom: 30px;
   transform: translateX(50px);
   text-align: center;
@@ -256,6 +266,7 @@ img{
     /* transform: translateY(60px); */
     margin-top:50px;
     margin-left: 70px;
+    font-size: 30px;
 }
 .main3 .right{
 margin-top: -300px;
@@ -266,17 +277,19 @@ margin-right: 70px;
     margin-bottom: 60px;
 }
 .right h4{
-    transform: translateY(-20px);
+    transform: translateY(-150px);
     margin-left: 50px;
  text-transform: lowercase;
  color: #ef584d;
- font-size: 20px;
+ margin-bottom:20px;
+ font-size: 30px;
   }
 
   .id1{
-    
-    margin-bottom:30px;
+    transform: translateY(-150px);
+    margin-bottom:40px;
     margin-left: 50px;
+    font-size: 30px;
 }
 
 /* contact slide */
@@ -294,6 +307,7 @@ footer {
   
   h2 {
     margin-bottom: 20px;
+    font-size: 40px;
   }
   
   .contact-info {
@@ -302,17 +316,19 @@ footer {
   
   h3 {
     margin-bottom: 10px;
+    font-size: 30px;
   }
   
   p {
     margin: 10px 0;
+    font-size: 20px;
   }
   
   .social-media a {
     display: inline-block;
     margin-right: 10px;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 30px;
     color: #555;
   }
   

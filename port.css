@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
     border: none;
     outline: none;
+   
 }
 
 .hero{
@@ -116,7 +117,8 @@ box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 
 .main .left{
     margin-right: 280px;
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
+    transform: translateY(-130px);
     float: left;
     
 }
@@ -139,7 +141,8 @@ img{
  .image{
     width:350px;
     height: 560px;
-    margin-top: -260px;
+    /* margin-top: -260px; */
+    transform: translateY(-30px);
     margin-left: 40px;   
 }
 .main .left a{
@@ -165,7 +168,8 @@ img{
 /* this about projects */
 .about-container{
     height: 90vh;
-    width: 100%;
+    width: 50%;
+    transform:translateX(390px) ;
 }
 .main1{
     display: flex;
@@ -355,4 +359,4 @@ footer {
     color: #555;
   }
 
-  /* Theme switcher image */
+ 

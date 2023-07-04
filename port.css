@@ -33,13 +33,13 @@ img{
  width: 100vw;
  height: 90px;
  font-size: larger; 
-transform: translateY(-40px);
+transform: translateY(-30px);
 margin-right: 120px;
 box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 }
 .logo a{
     width: 150px;
-    height: 200px;
+    height: 110px;
     display: block;
     padding: 20px 0px;
     margin-top: -20px;

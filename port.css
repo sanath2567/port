@@ -30,16 +30,16 @@ img{
     max-height: 100%;
 }
 .logo img{
- width: 1000vw;
- height: 70px;
+ width: 200vw;
+ height: 90px;
  font-size: larger; 
-transform: translateY(-30px);
+transform: translateY(-40px);
 margin-right: 120px;
 box-shadow: 0 5px 7px 0 rgb(0, 0, 0,0.1);
 }
 .logo a{
-    width: 150px;
-    height: 190px;
+    width: 226px;
+    height: 270px;
     display: block;
     padding: 20px 0px;
     margin-top: -20px;
@@ -344,19 +344,31 @@ footer {
     color: #333;
   }
 
+  h1 {
+    color:orchid;
+  }
+
+  p {
+    color: #555;
+  }
 
   /* Dark mode styles */
   body.dark-mode {
     background-color: #333;
-    color: #892323;
+    color: #f2f2f2;
   }
 
   body.dark-mode h1 {
-    color: orchid;
+    color: red;
   }
 
   body.dark-mode p {
-    color: #555;
+    color: #aaa;
   }
 
- 
+  /* Image style */
+  .theme-toggle {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }

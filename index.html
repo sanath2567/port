@@ -16,7 +16,7 @@
     <div class="hero" id="home">
         <div class="nav">
             <div class="logo">
-           <a href="#"><img src="2.jpg" alt="loading---" id="theme-switcher"></a> 
+           <a href="#"> <img src="3.jpeg" alt="Light Mode" class="theme-toggle" onclick="toggleTheme()"></a> 
           </div>
           <div class="links">
             <ul>
@@ -148,22 +148,18 @@
     </div>
   </footer>
   <script>
-    const body = document.body;
-    const themeSwitcher = document.getElementById("theme-switcher");
-    let isDarkMode = false;
-
-    themeSwitcher.addEventListener("click", toggleTheme);
-
-    function toggleTheme() {
-      isDarkMode = !isDarkMode;
+     function toggleTheme() {
+      const body = document.body;
       body.classList.toggle("dark-mode");
-      updateThemeSwitcher();
-    }
 
-    function updateThemeSwitcher() {
-      const iconPath = isDarkMode ? "2.jpg" : "3.jpeg";
-      themeSwitcher.setAttribute("src", iconPath);
-      themeSwitcher.setAttribute("alt", isDarkMode ? "Dark Mode" : "Light Mode");
+      const themeToggle = document.querySelector(".theme-toggle");
+      if (body.classList.contains("dark-mode")) {
+        themeToggle.src = "2.jpg";
+        themeToggle.alt = "Dark Mode";
+      } else {
+        themeToggle.src = "3.jpeg";
+        themeToggle.alt = "Light Mode";
+      }
     }
   </script>
 </body>
